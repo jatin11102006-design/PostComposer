@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Create New Post</h2>
+
+        <form id="postForm">
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Enter Post Title"
+                required
+            >
+
+            <textarea
+                id="content"
+                placeholder="Write your post..."
+                rows="6"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Create Post
+            </button>
+
+        </form>
+
+        <br>
+
+        <button onclick="window.location.href='index.html'">
+            Back to Dashboard
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/createPost.js"></script>
+
+</body>
+</html>
